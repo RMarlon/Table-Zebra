@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #B0C4DE;
+}
+
+table{
+    margin: 50px;
+    width: 500px;
+    text-align: center;
+}
+
+table thead{
+    background: #ccc;
+}
+
+th, td{
+    padding: 10px;
+    border: solid 1px #3a3939;
+}
+
+tbody tr:hover{
+    background: #eee;
+}
+
+tbody tr:nth-child(odd){
+    background: #DDD;
+}
